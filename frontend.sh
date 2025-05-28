@@ -7,11 +7,11 @@ systemctl start nginx
 
 rm -rf /usr/share/nginx/html/* 
 
+cp nginx.conf /etc/nginx/nginx.conf
+
 curl -o /tmp/frontend.zip https://roboshop-artifacts.s3.amazonaws.com/frontend-v3.zip
 
 cd /usr/share/nginx/html 
 unzip /tmp/frontend.zip
-
-cp nginx.conf /etc/nginx/nginx.conf
 
 systemctl restart nginx 
