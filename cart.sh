@@ -6,6 +6,7 @@ dnf install nodejs -y
 useradd roboshop
 
 cp cart.service /etc/systemd/system/cart.service
+rm -rf /app
 
 mkdir /app 
 

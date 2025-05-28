@@ -5,6 +5,8 @@ dnf install nodejs -y
 
 useradd roboshop
 
+rm -rf /app
+
 mkdir /app 
 
 cp catalogue.service /etc/systemd/system/catalogue.service

@@ -6,6 +6,7 @@ dnf install nodejs -y
 useradd roboshop
 
 cp user.service /etc/systemd/system/user.service
+rm -rf /app
 
 mkdir /app 
 
