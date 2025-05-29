@@ -5,7 +5,7 @@ systemd_setup() {
 }
 
 app_pre_setup() {
-    useradd roboshop
+    id roboshop || useradd roboshop
     cp ${path}/${component_name}.service /etc/systemd/system/${component_name}.service
     rm -rf /app
     mkdir /app 
