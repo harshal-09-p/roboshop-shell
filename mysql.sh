@@ -3,7 +3,7 @@ if [-z "$1" -a -z "$PASS"]; then
     exit
 elif [-n "$1"]; then
     PASSWD=$1
-else [-n "$PASS"]; then
+else
     PASSWD=${PASS}
 fi  
 
