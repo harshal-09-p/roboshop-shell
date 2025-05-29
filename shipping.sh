@@ -1,3 +1,5 @@
+set -e
+
 component_name=shipping
 path=$(pwd)
 source $(pwd)/common.sh
