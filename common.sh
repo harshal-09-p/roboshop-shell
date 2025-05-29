@@ -6,7 +6,7 @@ systemd_setup() {
 
 app_pre_setup() {
     useradd roboshop
-    cp ${component_name}.service /etc/systemd/system/${component_name}.service
+    cp ${path}/${component_name}.service /etc/systemd/system/${component_name}.service
     rm -rf /app
     mkdir /app 
     curl -L -o /tmp/${component_name}.zip https://roboshop-artifacts.s3.amazonaws.com/${component_name}-v3.zip
