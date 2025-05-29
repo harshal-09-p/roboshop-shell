@@ -1,4 +1,4 @@
-source common.sh
+source $(pwd)/common.sh
 component_name=catalogue
 path=$(pwd)
 
