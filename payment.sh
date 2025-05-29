@@ -1,6 +1,6 @@
 component_name=payment
 path=$(pwd)
-source common.sh
+source $(pwd)/common.sh
 
 python
 

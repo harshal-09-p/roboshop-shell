@@ -1,6 +1,6 @@
 component_name=user
 path=$(pwd)
-source common.sh
+source $(pwd)/common.sh
 
 nodejs
 

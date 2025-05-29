@@ -1,6 +1,6 @@
 component_name=shipping
 path=$(pwd)
-source common.sh
+source $(pwd)/common.sh
 
 java
 

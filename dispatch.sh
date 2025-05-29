@@ -1,6 +1,6 @@
 component_name=dispatch
 path=$(pwd)
-source common.sh
+source $(pwd)/common.sh
 
 golang
 

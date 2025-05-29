@@ -1,5 +1,5 @@
 component_name=cart
-source common.sh
+source $(pwd)/common.sh
 
 nodejs
 
