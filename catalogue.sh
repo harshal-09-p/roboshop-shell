@@ -1,5 +1,3 @@
-echo $(pwd)
-echo $(ls -l)
 source common.sh
 component_name=catalogue
 path=$(pwd)
