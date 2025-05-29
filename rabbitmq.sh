@@ -1,4 +1,4 @@
-if [-z "$1"]; then
+if [ -z "$1" ]; then
     echo input password data is missing, kindly pass the password while executing.
     exit
 fi
