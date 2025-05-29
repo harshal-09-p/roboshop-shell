@@ -1,6 +1,6 @@
+source common.sh
 component_name=catalogue
 path=$(pwd)
-source common.sh
 
 nodejs
 systemd_setup
